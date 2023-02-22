@@ -65,9 +65,12 @@ const lastName = "curtis"
 const firstName = "ryan"
 const lastName = "curtis"
 
-const finalName = firstName[0].toUpperCase() + firstName.slice(1,4) + " " + lastName[0].toUpperCase() + "."
+// const finalName = firstName[0].toUpperCase() + firstName.slice(1,4) + " " + lastName[0].toUpperCase() + "."
 
-console.log(firstName + " " + lastName + " => " + finalName )
+// console.log(firstName + " " + lastName + " => " + finalName )
+
+
+console.log(`${firstName[0].toUpperCase() + firstName.slice(1)} ${lastName[0].toUpperCase()}.`)
 
 
 
